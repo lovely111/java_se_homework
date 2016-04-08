@@ -6,8 +6,8 @@ public class H3 {
    public static void main(String[] args) {
         for (int i=100;i<1000;i++){
             int a=i/100;
-            int b=(i-a*100)/10;
-            int c=(i-a*100-b*10);
+            int b=i/10%10;
+            int c=i%10;
             double j=Math.pow(a,3)+Math.pow(b,3)+Math.pow(c,3);
            if (i==j) {System.out.print(i+"\t");}
         }

@@ -11,7 +11,8 @@ public class H2 {
                 if (i % j != 0) {
                     b = true;
                 } else {
-                    b = false;break;
+                    b = false;
+                    break;
                 }
             }
             if (b == true) {
